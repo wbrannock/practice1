@@ -1,3 +1,5 @@
+import pandas as pd
+
 def download_data(force=False):
     """Download and extract course data from Zenodo."""
     import urllib.request
